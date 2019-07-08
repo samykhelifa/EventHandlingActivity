@@ -11,3 +11,15 @@
 /build
 /captures
 .externalNativeBuild
+.idea/
+app/build.gradle
+app/proguard-rules.pro
+app/src/androidTest/
+app/src/test/
+build.gradle
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
+
