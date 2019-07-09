@@ -12,6 +12,8 @@ import android.widget.RelativeLayout;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = MainActivity.class.getSimpleName();
     RelativeLayout relativeLayout;
+    final int b1 = R.id.button1;
+    final int b2 = R.id.button2;
 
 
     @Override
@@ -28,8 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         // Log.i(TAG,"button clicked");
-        final int b1 = R.id.button1;
-        final int b2 = R.id.button2;
+
         switch (view.getId()) {
             case b1:
                 Log.i(TAG, "button one clicked");
